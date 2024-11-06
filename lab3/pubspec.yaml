@@ -1,0 +1,31 @@
+name: app
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+# Version information
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any # Thư viện SQLite cho Flutter
+  path_provider: any # Thư viện lấy đường dẫn đến các thư mục trên thiết bị
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Material design icons
+  uses-material-design: true
+
+  # Khai báo assets
+  assets:
+    - images/
